@@ -1,0 +1,183 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 3, 2015, 3:01:27 PM
+    Author     : rajveers
+*/
+html, body {
+    height:100%;
+}
+h1 {
+    color: #F3F3F3;
+}
+h2 {
+    color: #F09408;
+}
+h3,h4,h5,h6 {
+   color: #499BEA;
+}
+p {
+  color: #fff;
+  font-weight: bold;
+}
+body {
+    background-image: url('../images/bk.jpg');
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.footer_menu_container {
+  height: 50px;
+  background: rgb(73,155,234);
+  box-shadow: 0px -1px 5px #000;
+  padding-top: 5px;
+  z-index: 99;
+  position: relative;
+}
+.desktop_menu_container {
+    box-shadow: 0px -1px 5px #000;
+    padding-top: 5px;
+    width: 400px;
+    position: absolute;
+    bottom: 50px;
+    z-index: 9;
+    overflow-y: auto;
+}
+.desktop_menu_container .menu li a {
+    border-radius: 0;
+}
+.footer_menu {
+  height: 50px;
+}
+.footer_menu_container img.icon-bar-image {
+    height: 45px;
+}
+.footer_menu_container ul {
+    margin-bottom: 0px;
+}
+#startupMenuContainer {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.53);
+  padding: 10px;
+  border-radius: 0px !important;
+  z-index: 9;
+}
+.fullBackground {
+    margin: 0;
+    min-height: 100%;
+    max-height: 100%;
+}
+.fullScreen {
+    
+}
+.leftSideBar {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-right: 2px solid #000;
+}
+.rightSideBar {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-left: 2px solid #000;
+    margin-left: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.removePadding {
+    padding: 0;
+}
+.mainData {
+    overflow-y: auto;
+}
+.footerContainer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 0;
+}
+.rightContainer {
+    overflow-y: auto;
+    padding: 15px;
+    background-color: rgba(73, 155, 234, 0.48);
+    border-left: 4px solid #F09408;
+}
+.noRadius {
+    border-radius: 0px !important;
+}
+.topSearchBlock {
+    padding-top: 35px;
+}
+.input-group .form-control {
+    z-index: 0;
+}
+h1.menuh1 {
+    color: #F3F3F3;
+  margin: 0;
+  background-color: #F09408;
+  text-align: center;
+  padding: 0;
+}
+
+/*
+Scroll Bar
+*/
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-button {
+  width: 35px;
+  height: 35px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d64d08;
+  border: 67px solid #f09408;
+  border-radius: 35px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #f6f7f8;
+  border: 0px dotted #031395;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #f9f7f7;
+}
+::-webkit-scrollbar-track:active {
+  background: #f9f9f9;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.grey_background {
+    background-color: #cccccc;
+}
+.green_background {
+    background-color: #909B19;
+}
+.red {
+    color: #FF0000;
+}
+.blue {
+    color: #0000FF;
+}
+.demo1_menu {
+    background-color: rgba(73, 155, 234, 0.43);
+    border-right: 4px solid #F09408;
+}
+.leftContainer {
+    padding: 0;
+}
